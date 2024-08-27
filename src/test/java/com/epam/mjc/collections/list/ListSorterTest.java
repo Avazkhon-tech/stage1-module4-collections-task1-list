@@ -29,8 +29,13 @@ public class ListSorterTest {
                   List<String> sourceList,
                   List<String> expectedList) {
 
+
+
+
+
         ListSorter listSorter = new ListSorter();
-        listSorter.sort(sourceList);
+        listSorter.
+                sort(sourceList);
         assertEquals(expectedList, sourceList);
     }
 }

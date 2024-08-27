@@ -41,6 +41,7 @@ public class ArrayListCreatorTest {
                              List<String> sourceList,
                              ArrayList<String> expectedArrayList) {
 
+
         ArrayListCreator arrayListCreator = new ArrayListCreator();
         ArrayList<String> actualArrayList = arrayListCreator.createArrayList(sourceList);
         assertEquals(expectedArrayList, actualArrayList);
